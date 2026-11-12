@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Simulation of animal evolution
 
 ## 📖 About
