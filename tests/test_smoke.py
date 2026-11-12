@@ -1,3 +1,10 @@
+import sys
+import os
+
+_build_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "build")
+if _build_dir not in sys.path:
+    sys.path.insert(0, _build_dir)
+
 import numpy as np
 import mymodule
 
