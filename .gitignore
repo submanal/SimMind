@@ -1,0 +1,65 @@
+# ─── Python ───────────────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+*.pyd
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.log
+
+# ─── C++ / CMake ──────────────────────────────────────────────────────────
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.dylib
+*.exe
+
+# ─── Docker ───────────────────────────────────────────────────────────────
+*.tar
+*.tar.gz
+
+# ─── IDE ──────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+.cproject
+.classpath
+*.code-workspace
+
+# ─── OS ───────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── temporaries ──────────────────────────────────────────────────────────
+*.tmp
+*.bak
+*.orig
+*.rej
+.cache/
+tmp/
+temp/
