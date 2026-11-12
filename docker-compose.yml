@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    image: test_sim:latest
+    environment:
+      - DISPLAY=${DISPLAY}
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./:/app
+    stdin_open: true
+    tty: true
+    command: bash
